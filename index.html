@@ -1,131 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elegant Product Categories</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <title>Koleksiyonlarımızı Keşfedin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
-            padding: 24px;
+            padding: 16px;
             background-color: #f8f9fa;
             color: #333;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
         }
         h2 {
             text-align: center;
             font-weight: 600;
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
             color: #2c3e50;
         }
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 24px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
         }
         .card {
             position: relative;
             aspect-ratio: 1 / 1;
             overflow: hidden;
-            border-radius: 12px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .card img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-        .card:hover img {
-            transform: scale(1.1);
         }
         .card-content {
             position: absolute;
-            top: 0;
             left: 0;
             right: 0;
             bottom: 0;
             background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-            transition: background 0.3s ease;
-        }
-        .card:hover .card-content {
-            background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 100%);
+            padding: 8px;
         }
         .card-content h3 {
             color: white;
-            font-size: 1.5rem;
-            font-weight: 300;
+            font-size: 1rem;
+            font-weight: 400;
             margin: 0;
-            transform: translateY(20px);
-            opacity: 0.8;
-            transition: all 0.3s ease;
-        }
-        .card:hover .card-content h3 {
-            transform: translateY(0);
-            opacity: 1;
-        }
-        @media (max-width: 768px) {
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Discover Our Collections</h2>
-        <div class="grid">
+    <h2>Koleksiyonlarımızı Keşfedin</h2>
+    <div class="grid">
+        <a href="https://neyex.co/os089-glassed-dog" target="_top">
             <div class="card">
-                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/2ba21431-daf4-427f-9ca0-f69ccfd2524c/540/siyah-gri.webp" alt="Clothing">
+                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/d70314c2-8987-4c73-b8e5-caa4108efe3d/image_1080.webp" alt="T-Shirt">
                 <div class="card-content">
-                    <h3>Clothing</h3>
+                    <h3>T-Shirt</h3>
                 </div>
             </div>
+        </a>
+        <a href="https://neyex.co/c006-astronot-bear" target="_top">
             <div class="card">
-                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/0d7ab386-d963-414a-b9d8-98d007393b85/540/kopsonlu-cizgili-pembe-bornoz.webp" alt="Bedding">
+                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/3266c355-4711-4585-bb0f-c7d80315c8b7/image_1080.webp" alt="Çocuk Giyim">
                 <div class="card-content">
-                    <h3>Bedding</h3>
+                    <h3>Çocuk Giyim</h3>
                 </div>
             </div>
+        </a>
+        <a href="https://neyex.co/etn006-siyah-gri-nevresim-takimi" target="_top">
             <div class="card">
-                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/c1a54f6b-0065-4a72-924f-38bae3a8155c/540/lion1.webp">
+                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/2ba21431-daf4-427f-9ca0-f69ccfd2524c/image_1080.webp" alt="Nevresim">
                 <div class="card-content">
-                    <h3>Curtains</h3>
+                    <h3>Nevresim</h3>
                 </div>
             </div>
+        </a>
+        <a href="https://neyex.co/h002-oyku6-li-yuz-havlu-seti" target="_top">
             <div class="card">
-                <img src="/api/placeholder/500/500" alt="Towels">
+                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/df19de87-8997-4c66-ac43-a69debfcb878/image_1080.webp" alt="Havlu">
                 <div class="card-content">
-                    <h3>Towels</h3>
+                    <h3>Havlu</h3>
                 </div>
             </div>
+        </a>
+        <a href="https://neyex.co/cookie-monster-mug" target="_top">
             <div class="card">
-                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/2ba21431-daf4-427f-9ca0-f69ccfd2524c/540/siyah-gri.webp" alt="Rugs">
+                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/7debe672-3fb6-46a1-a731-b78e679cf999/image_1080.webp" alt="Kupa">
                 <div class="card-content">
-                    <h3>Rugs</h3>
+                    <h3>Kupa</h3>
                 </div>
             </div>
+        </a>
+        <a href="https://neyex.co/bordomavi-kaplan-taraftar-ozel" target="_top">
             <div class="card">
-                <img src="/api/placeholder/500/500" alt="Accessories">
+                <img src="https://cdn.myikas.com/images/85ac5111-fce1-44f1-b031-a3879e33e55b/6dc9583d-5984-4200-9a03-bd95d158f3e3/image_1080.webp" alt="Taraftar Özel">
                 <div class="card-content">
-                    <h3>Accessories</h3>
+                    <h3>Taraftar Özel</h3>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </body>
 </html>
